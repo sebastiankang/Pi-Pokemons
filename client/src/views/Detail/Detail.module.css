@@ -1,0 +1,43 @@
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.detailContainer h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.detailContainer p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.detailContainer img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.detailContainer .types {
+  margin-top: 10px;
+}
+
+.detailContainer .types p {
+  display: inline;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.detailContainer .types p:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,22 @@
+.mainContainer {
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ffd700;
+}

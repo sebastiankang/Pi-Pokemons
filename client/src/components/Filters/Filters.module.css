@@ -1,0 +1,21 @@
+.filterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.selectFilter {
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.selectFilter:focus {
+  border-color: #0056b3;
+}
